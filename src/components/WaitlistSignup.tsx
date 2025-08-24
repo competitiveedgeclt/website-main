@@ -19,9 +19,8 @@ const WaitlistSignup = () => {
     setIsSubmitting(true);
 
     try {
-      // Send email using EmailJS
       const templateParams = {
-        to_email: 'coach@competitiveedgeclt.com',
+        to_email: 'competitiveedgeclt@gmail.com',
         from_name: formData.name,
         from_email: formData.email,
         phone: formData.phone,
@@ -31,14 +30,18 @@ const WaitlistSignup = () => {
         subject: 'New Waitlist Signup - The Competitive Edge'
       };
 
-      // Note: You'll need to set up EmailJS service, template, and public key
-      // For now, we'll simulate the email sending
-      console.log('Waitlist signup:', templateParams);
+      await emailjs.send(
+        'service_2e8eag6',
+        'template_jr1wfnr', 
+        templateParams,
+        '0S2Mhg2y8uLXVe3b4'
+      );
       
       setIsSubmitted(true);
       setTimeout(() => setIsSubmitted(false), 5000);
     } catch (error) {
       console.error('Error sending email:', error);
+      alert('There was an error sending your message. Please try again or contact us directly.');
     } finally {
       setIsSubmitting(false);
     }
