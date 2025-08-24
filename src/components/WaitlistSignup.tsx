@@ -20,6 +20,8 @@ const WaitlistSignup = () => {
 
     try {
       const templateParams = {
+        to_name: 'competitiveedgeclt@gmail.com',
+        subject: 'Join Waitlist Request',
         from_name: formData.name,
         from_email: formData.email,
         phone: formData.phone,
