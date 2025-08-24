@@ -20,14 +20,12 @@ const WaitlistSignup = () => {
 
     try {
       const templateParams = {
-        to_email: 'competitiveedgeclt@gmail.com',
         from_name: formData.name,
         from_email: formData.email,
         phone: formData.phone,
         athlete_age: formData.athleteAge,
         sport: formData.sport,
         interests: formData.interests,
-        subject: 'New Waitlist Signup - The Competitive Edge'
       };
 
       await emailjs.send(
