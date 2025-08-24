@@ -34,7 +34,7 @@ const Hero = () => {
               href="#camps" 
               className="border-2 border-[#1C9770] text-[#1C9770] hover:bg-[#1C9770] hover:text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 flex items-center justify-center"
             >
-              View Summer Camps
+              View Summer Camps &amp; Clinics
             </a>
           </div>
 
