@@ -16,10 +16,10 @@ const Hero = () => {
           </div>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight mt-16">
             Elite Athletic Training for
-            <span className="block text-[#1C9770]">Young Champions</span>
+            <span className="block text-[#1C9770]">Serious Athletes</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-4xl mx-auto text-gray-200 leading-relaxed">
-            Give your young athlete the competitive advantage they deserve! Professional run coaching and athletic performance training in Charlotte, North Carolina for athletes of all sports and abilities.
+            Elite training for dedicated middle school, high school, and college athletes. Professional run coaching and athletic performance training in Charlotte, North Carolina for serious competitors ready to take their game to the next level.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">

@@ -60,7 +60,7 @@ const Services = () => {
             What We <span className="text-[#1C9770]">Offer</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Comprehensive training programs designed for athletes of all sports and abilities, from middle school to college level.
+            Elite training programs designed for serious athletes from upper middle school through college level, focusing on competitive excellence and performance optimization.
           </p>
         </div>
 

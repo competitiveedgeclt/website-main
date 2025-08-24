@@ -6,7 +6,7 @@ const SummerCamps = () => {
     {
       name: "Technique Builder",
       dates: "June 10-14, 2025",
-      ageGroup: "8-12 years",
+      ageGroup: "12-15 years",
       focus: "Sprint mechanics, reaction time",
       color: "from-[#1C9770] to-[#7AD1C3]"
     },
@@ -20,14 +20,14 @@ const SummerCamps = () => {
     {
       name: "Multi-Sport Elite",
       dates: "July 8-12, 2025",
-      ageGroup: "12-16 years",
+      ageGroup: "14-18 years",
       focus: "Comprehensive athletic development",
       color: "from-[#1C9770] to-[#464646]"
     },
     {
       name: "Speed on the Trails",
       dates: "July 22-26, 2025",
-      ageGroup: "13-17 years",
+      ageGroup: "15-19 years",
       focus: "Advanced speed techniques",
       color: "from-[#464646] to-[#1C9770]"
     }
@@ -45,11 +45,11 @@ const SummerCamps = () => {
             2025 Summer <span className="text-[#1C9770]">Camps</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-            Immersive multi-day programs designed to build comprehensive athletic foundations. Early bird registration now open!
+            Intensive multi-day programs designed for serious athletes ready to elevate their performance. These elite camps fill up fast!
           </p>
           <div className="bg-[#7AD1C3]/20 border border-[#1C9770]/30 rounded-lg p-6 max-w-2xl mx-auto">
             <div className="text-3xl font-bold text-[#1C9770] mb-2">$250 per camp session</div>
-            <p className="text-gray-700">All camps run 9:00 AM - 11:30 AM daily in Charlotte, NC</p>
+            <p className="text-gray-700">Elite training sessions run 9:00 AM - 11:30 AM daily in Charlotte, NC</p>
           </div>
         </div>
 

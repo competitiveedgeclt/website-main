@@ -12,7 +12,7 @@ const Footer = () => {
               The <span className="text-[#1C9770]">Competitive Edge</span>
             </div>
             <p className="text-gray-400 mb-6 max-w-md">
-              Elite athletic training for young champions. Professional run coaching and athletic performance training in Charlotte, North Carolina.
+              Elite athletic training for serious competitors. Professional run coaching and athletic performance training in Charlotte, North Carolina for dedicated middle school, high school, and college athletes.
             </p>
             <div className="flex space-x-4">
               <a href="tel:240-328-7404" className="text-gray-400 hover:text-[#7AD1C3] transition-colors">

@@ -10,7 +10,7 @@ const About = () => {
             Meet Coach <span className="text-[#1C9770]">Jocelyn Ingram</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Elite ultra and marathon runner dedicated to empowering young athletes with comprehensive training that builds champions on and off the field.
+            Elite ultra and marathon runner dedicated to developing serious teenage and college athletes with comprehensive training that builds champions on and off the field.
           </p>
         </div>
 

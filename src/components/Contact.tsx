@@ -34,7 +34,7 @@ const Contact = () => {
             Ready to Give Your Athlete the <span className="text-[#1C9770]">Edge?</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Contact Coach Jocelyn today to discuss private sessions, upcoming camps, or to create a customized training plan for your young athlete.
+            Contact Coach Jocelyn today to discuss elite training sessions, upcoming camps, or to create a customized performance plan for your dedicated athlete.
           </p>
         </div>
 

@@ -10,13 +10,13 @@ const Testimonials = () => {
       sport: "Soccer & Track"
     },
     {
-      quote: "Coach Jocelyn doesn't just teach running - she builds athletes. My son's agility and endurance have transformed his basketball performance completely.",
+      quote: "Coach Jocelyn doesn't just teach running - she builds elite athletes. My son's agility and endurance have transformed his basketball performance at the varsity level.",
       author: "Darnell T.",
-      role: "Father of 12-year-old basketball player",
+      role: "Father of 16-year-old varsity basketball player",
       sport: "Basketball"
     },
     {
-      quote: "The Competitive Edge summer camp was amazing for my daughter's development. At 15, she needed that extra push to take her running to the next level, and Coach Jocelyn delivered!",
+      quote: "The Competitive Edge summer camp was transformative for my daughter's development. At 15, she needed elite-level training to compete at the state level, and Coach Jocelyn delivered exactly that!",
       author: "Sarah K.",
       role: "Mother of 15-year-old cross-country runner",
       sport: "Cross Country"
