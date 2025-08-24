@@ -16,9 +16,9 @@ const Testimonials = () => {
       sport: "Basketball"
     },
     {
-      quote: "The Competitive Edge summer camp was the highlight of my daughter's break. She made friends while getting faster and stronger every day!",
+      quote: "The Competitive Edge summer camp was amazing for my daughter's development. At 15, she needed that extra push to take her running to the next level, and Coach Jocelyn delivered!",
       author: "Sarah K.",
-      role: "Mother of 10-year-old cross-country runner",
+      role: "Mother of 15-year-old cross-country runner",
       sport: "Cross Country"
     }
   ];

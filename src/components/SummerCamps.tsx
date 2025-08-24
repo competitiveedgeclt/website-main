@@ -4,7 +4,7 @@ import { Calendar, Clock, MapPin, Users, Star, ArrowRight } from 'lucide-react';
 const SummerCamps = () => {
   const camps = [
     {
-      name: "Speed Camp Alpha",
+      name: "Technique Builder",
       dates: "June 10-14, 2025",
       ageGroup: "8-12 years",
       focus: "Sprint mechanics, reaction time",
@@ -13,7 +13,7 @@ const SummerCamps = () => {
     {
       name: "Endurance Builder",
       dates: "June 24-28, 2025",
-      ageGroup: "10-14 years",
+      ageGroup: "12-16 years",
       focus: "Distance running, pacing strategy",
       color: "from-[#7AD1C3] to-[#1C9770]"
     },
@@ -25,7 +25,7 @@ const SummerCamps = () => {
       color: "from-[#1C9770] to-[#464646]"
     },
     {
-      name: "Speed Camp Beta",
+      name: "Speed on the Trails",
       dates: "July 22-26, 2025",
       ageGroup: "13-17 years",
       focus: "Advanced speed techniques",
@@ -48,8 +48,8 @@ const SummerCamps = () => {
             Immersive multi-day programs designed to build comprehensive athletic foundations. Early bird registration now open!
           </p>
           <div className="bg-[#7AD1C3]/20 border border-[#1C9770]/30 rounded-lg p-6 max-w-2xl mx-auto">
-            <div className="text-3xl font-bold text-[#1C9770] mb-2">$200 per camp session</div>
-            <p className="text-gray-700">All camps run 9:00 AM - 12:00 PM daily in Charlotte, NC</p>
+            <div className="text-3xl font-bold text-[#1C9770] mb-2">$250 per camp session</div>
+            <p className="text-gray-700">All camps run 9:00 AM - 11:30 AM daily in Charlotte, NC</p>
           </div>
         </div>
 
@@ -73,16 +73,15 @@ const SummerCamps = () => {
                   </div>
                   <div className="flex items-center text-gray-700">
                     <Clock className="w-5 h-5 text-[#1C9770] mr-3" />
-                    <span>9:00 AM - 12:00 PM daily</span>
+                    <span>9:00 AM - 11:30 AM daily</span>
                   </div>
                   <div className="flex items-center text-gray-700">
                     <MapPin className="w-5 h-5 text-[#1C9770] mr-3" />
                     <span>Charlotte, NC</span>
                   </div>
                 </div>
-                <button className="w-full mt-6 bg-[#1C9770] hover:bg-[#7AD1C3] text-white py-3 px-6 rounded-lg font-semibold transition-colors duration-300 flex items-center justify-center">
-                  Register Now
-                  <ArrowRight className="ml-2 w-5 h-5" />
+                <button className="w-full mt-6 bg-gray-400 text-white py-3 px-6 rounded-lg font-semibold cursor-not-allowed flex items-center justify-center" disabled>
+                  Sold Out
                 </button>
               </div>
             </div>

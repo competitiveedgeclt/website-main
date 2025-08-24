@@ -25,7 +25,7 @@ const About = () => {
                 </li>
                 <li className="flex items-start">
                   <Award className="w-5 h-5 text-[#1C9770] mr-3 mt-1 flex-shrink-0" />
-                  <span>Head Distance Coach at Charlotte Christian School with multiple school records</span>
+                  <span>Cross Country and Track Coach at Charlotte Christian High School with multiple school records</span>
                 </li>
                 <li className="flex items-start">
                   <Award className="w-5 h-5 text-[#1C9770] mr-3 mt-1 flex-shrink-0" />
