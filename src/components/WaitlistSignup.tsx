@@ -9,13 +9,21 @@ const WaitlistSignup = () => {
     phone: '',
     athleteAge: '',
     sport: '',
-    interests: ''
+    interests: '',
+    honeypot: '' // Anti-spam field
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    
+    // Anti-spam check - if honeypot field is filled, it's likely spam
+    if (formData.honeypot) {
+      console.log('Spam detected - form submission blocked');
+      return;
+    }
+    
     setIsSubmitting(true);
 
     try {
@@ -206,6 +214,17 @@ const WaitlistSignup = () => {
                   {isSubmitting ? 'Joining Waitlist...' : 'Join Elite Waitlist'}
                   <Send className="ml-2 w-5 h-5" />
                 </button>
+                
+                {/* Honeypot field - hidden from users but visible to bots */}
+                <input
+                  type="text"
+                  name="honeypot"
+                  value={formData.honeypot}
+                  onChange={handleChange}
+                  style={{ display: 'none' }}
+                  tabIndex={-1}
+                  autoComplete="off"
+                />
               </form>
             </div>
           )}
